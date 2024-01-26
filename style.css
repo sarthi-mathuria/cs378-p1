@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    padding-top: 20px;
+    padding: 0 5%;
+    overflow-y: auto; 
+    border-radius: 0;
+}
+
+.first-text-element {
+    color: #FF4500; 
+    font-family: 'Brush Script MT', cursive; 
+    text-decoration: none;
+}
+
+.header-title {
+    text-align: center;
+    color: #333;
+    letter-spacing: normal;
+}
+
+.header-title img {
+    width: 120px;
+    border-radius: 10px; 
+    opacity: 1;
+}
+
+.header-title h1 {
+    font-family: 'Arial', sans-serif;
+    margin: 10px 0;
+    text-indent: 0;
+}
+
+.header-title h2 {
+    font-family: 'Lucida Handwriting', cursive;
+    color: orange;
+    margin: 8px 0;
+    font-size: 1.4rem;
+    word-spacing: normal;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 0;
+    border-bottom: 2px dashed #ddd;
+    outline: none;
+}
+
+.menu-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    object-fit: cover; 
+    margin: auto; 
+    max-width: 140px; 
+    vertical-align: baseline;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    flex-grow: 1;
+    direction: ltr;
+}
+
+.item-info h3 {
+    color: #556B2F;
+    font-weight: bold; 
+    font-family: 'Verdana', sans-serif;
+    white-space: normal;
+}
+
+.item-info p {
+    margin: 12px 0;
+    font-size: 0.95rem;
+    font-weight: normal; 
+    line-height: normal;
+}
+
+.item-price {
+    font-weight: 600;
+    margin-right: 25px;
+    text-shadow: none;
+}
+
+.pricing-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    box-sizing: content-box;
+}
+
+.action-button {
+    background-color: #FFA07A; 
+    color: #000000;
+    padding: 6px 12px;
+    border-radius: 20px; 
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    resize: none;
+}
+
+.button-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #F7E8E4;
+    overflow: visible;
+}
+
+body div {
+    display: block;
+    float: none;
+}
+
+body span {
+    display: inline;
+    clear: none;
+}
+
+body p {
+    display: block;
+    list-style: none;
+}
+
+body img {
+    display: inline-block;
+    position: static;
+}
